@@ -1,12 +1,15 @@
-# $Revision: 1.3 $Date: 2001-09-06 19:19:29 $
-Summary:	Berkeley DB Name Service Switch Module
+# $Revision: 1.4 $Date: 2001-12-06 12:59:39 $
+Summary:	lwres Service Switch Module
+Summary(pl):	Modu³ NSS lwres
 Name:		nss_lwres
 Version:	0.93
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Base
 Group(de):	Gründsätzlich
+Group(es):	Base
 Group(pl):	Podstawowe
+Group(pt_BR):	Base
 Source0:	ftp://sourceware.cygnus.com/pub/glibc/releases/%{name}-%{version}.tar.gz
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -19,6 +22,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description 
 This is nss_lwres, a name service switch module that can be used with
 bind 9.
+
+%description -l pl
+To jest nss_lwres, modu³ serwisu nazw, który mo¿na u¿ywaæ z bindem 9.
 
 %prep
 %setup -q
@@ -34,7 +40,7 @@ automake -a -c
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/lib
+install -d $RPM_BUILD_ROOT%{_libdir}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
