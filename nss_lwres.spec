@@ -1,4 +1,3 @@
-# $Revision: 1.14 $Date: 2003-05-28 12:59:55 $
 Summary:	lwres Service Switch Module
 Summary(pl):	Modu³ NSS lwres
 Name:		nss_lwres
