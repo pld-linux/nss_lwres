@@ -2,7 +2,7 @@ Summary:	lwres Service Switch Module
 Summary(pl):	Modu³ NSS lwres
 Name:		nss_lwres
 Version:	0.93
-Release:	4
+Release:	5
 License:	LGPL
 Group:		Base
 Source0:	ftp://sourceware.cygnus.com/pub/glibc/releases/%{name}-%{version}.tar.gz
