@@ -1,8 +1,8 @@
-# $Revision: 1.1 $Date: 2000-11-07 18:25:45 $
+# $Revision: 1.2 $Date: 2001-02-22 22:47:18 $
 Summary:	Berkeley DB Name Service Switch Module
 Name:		nss_lwres
-Version:	0.91
-Release:	0.1
+Version:	0.92
+Release:	1
 License:	LGPL
 Group:		Base
 Group(de):	Gründsätzlich
