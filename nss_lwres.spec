@@ -1,4 +1,4 @@
-# $Revision: 1.5 $Date: 2002-01-18 02:14:03 $
+# $Revision: 1.6 $Date: 2002-02-22 23:29:20 $
 Summary:	lwres Service Switch Module
 Summary(pl):	Modu³ NSS lwres
 Name:		nss_lwres
@@ -6,10 +6,6 @@ Version:	0.93
 Release:	2
 License:	LGPL
 Group:		Base
-Group(de):	Gründsätzlich
-Group(es):	Base
-Group(pl):	Podstawowe
-Group(pt_BR):	Base
 Source0:	ftp://sourceware.cygnus.com/pub/glibc/releases/%{name}-%{version}.tar.gz
 BuildRequires:	autoconf
 BuildRequires:	automake
