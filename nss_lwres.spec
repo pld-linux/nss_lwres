@@ -2,7 +2,7 @@ Summary:	lwres Service Switch Module
 Summary(pl):	Modu³ NSS lwres
 Name:		nss_lwres
 Version:	0.93
-Release:	2
+Release:	3
 License:	LGPL
 Group:		Base
 Source0:	ftp://sourceware.cygnus.com/pub/glibc/releases/%{name}-%{version}.tar.gz
@@ -13,7 +13,7 @@ BuildRequires:	bind-devel >= 9.0.0
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_libdir		/lib
+%define		_libdir		/%{_lib}
 
 %description
 This is nss_lwres, a name service switch module that can be used with
@@ -26,7 +26,6 @@ To jest nss_lwres, modu³ serwisu nazw, który mo¿na u¿ywaæ z bindem 9.
 %setup -q
 
 %build
-rm -f missing
 %{__libtoolize}
 %{__aclocal}
 %{__autoconf}
