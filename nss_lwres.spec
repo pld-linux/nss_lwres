@@ -1,4 +1,4 @@
-# $Revision: 1.10 $Date: 2002-06-23 20:32:32 $
+# $Revision: 1.11 $Date: 2002-10-09 13:14:41 $
 Summary:	lwres Service Switch Module
 Summary(pl):	Modu³ NSS lwres
 Name:		nss_lwres
@@ -28,7 +28,7 @@ To jest nss_lwres, modu³ serwisu nazw, który mo¿na u¿ywaæ z bindem 9.
 %build
 rm -f missing
 %{__libtoolize}
-aclocal
+%{__aclocal}
 %{__autoconf}
 %{__automake}
 %configure
