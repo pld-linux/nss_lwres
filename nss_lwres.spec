@@ -1,4 +1,4 @@
-# $Revision: 1.11 $Date: 2002-10-09 13:14:41 $
+# $Revision: 1.12 $Date: 2002-11-27 22:06:25 $
 Summary:	lwres Service Switch Module
 Summary(pl):	Modu³ NSS lwres
 Name:		nss_lwres
@@ -41,12 +41,10 @@ install -d $RPM_BUILD_ROOT%{_libdir}
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf AUTHORS ChangeLog README NEWS THANKS
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc AUTHORS ChangeLog README NEWS THANKS
 %attr(755,root,root) %{_libdir}/*.so*
