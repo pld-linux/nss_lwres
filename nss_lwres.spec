@@ -1,4 +1,4 @@
-# $Revision: 1.6 $Date: 2002-02-22 23:29:20 $
+# $Revision: 1.7 $Date: 2002-02-23 04:05:42 $
 Summary:	lwres Service Switch Module
 Summary(pl):	Modu³ NSS lwres
 Name:		nss_lwres
@@ -15,7 +15,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_libdir		/lib
 
-%description 
+%description
 This is nss_lwres, a name service switch module that can be used with
 bind 9.
 
