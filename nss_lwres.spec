@@ -1,5 +1,5 @@
 Summary:	lwres Service Switch Module
-Summary(pl):	Modu≥ NSS lwres
+Summary(pl.UTF-8):   Modu≈Ç NSS lwres
 Name:		nss_lwres
 Version:	0.93
 Release:	5
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is nss_lwres, a name service switch module that can be used with
 bind 9.
 
-%description -l pl
-To jest nss_lwres, modu≥ serwisu nazw, ktÛry moøna uøywaÊ z bindem 9.
+%description -l pl.UTF-8
+To jest nss_lwres, modu≈Ç serwisu nazw, kt√≥ry mo≈ºna u≈ºywaƒá z bindem 9.
 
 %prep
 %setup -q
