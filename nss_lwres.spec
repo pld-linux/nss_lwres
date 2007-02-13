@@ -1,5 +1,5 @@
 Summary:	lwres Service Switch Module
-Summary(pl.UTF-8):   Moduł NSS lwres
+Summary(pl.UTF-8):	Moduł NSS lwres
 Name:		nss_lwres
 Version:	0.93
 Release:	5
